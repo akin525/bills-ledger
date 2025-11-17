@@ -1,5 +1,5 @@
 import { Request } from 'express';
-import { User } from '@prisma/client';
+// import { User } from '@prisma/client';
 
 // Extend Express Request to include user
 export interface AuthRequest extends Request {

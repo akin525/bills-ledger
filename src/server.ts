@@ -12,7 +12,7 @@ const wsServer = new WebSocketServer(server);
 // Graceful shutdown
 const gracefulShutdown = async () => {
   console.log('Starting graceful shutdown...');
-  
+
   // Close server
   server.close(() => {
     console.log('HTTP server closed');
